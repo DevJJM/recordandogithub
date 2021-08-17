@@ -1,0 +1,14 @@
+git init = es el que arranca en git
+git add biografia.txt  = aun no se agrego 
+git commit -m "version 1" = es el que envia
+====actualizar un archivo===
+git add . = se agregan todos los archivos que se han agregado
+git commit -m "version2"
+git status = vemos si se a gregado
+git show
+
+mkdir = crea una carpeta ejemplo mkdir holaatodos = la carpeta se llama hola a todods
+history = nos  muestra todos los codigos que emos hecho en el path de git
+rm = sirve para eliminar carpetas como disco duro
+r  --help ayuda ver todo los comandos
+ctrl + l = nos ayuda a eliminar todo lo escrito
