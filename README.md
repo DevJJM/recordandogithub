@@ -27,3 +27,12 @@ Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
 
 ##Comandos para repositorios remotos
   - Git push
+##Comados basicos
+  - pwd ( nos dice en que carpeta estamos )
+  - cd / (  para ir al inico i nos lsadra un / cd es para navegar por carpetas)
+  - Ñ ( Si me aparece el signo de arriba de la Ñ es porqeu estmaos en una carpeta )
+  - ls ( archivos que estan en todas la raiz )
+  - Clear ( limpiar toda la pantalla )
+  - cd .. ( para retroceder una carpeta )
+  - mkdir proyectos1 ( mkdir = crea la carpeta proyecto1 = es el nombre )
+  - history ( nos muestra todos los comandos que emos hecho )
