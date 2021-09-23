@@ -20,5 +20,10 @@ Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
   - git push origin master
   - git show (Cuarto vemos todos los cambios hechos ejemplo hola jonathan " esto estara en rojo " hola jonathan jacob " estara en verde y es la nueva version ")
 
+##Ver el archivo oculto de git en windows
+  - Ir a la carpeta win + e
+  - Ve a vista
+  - Habilitar el que dice comandos ocultos i nos aparecera un ".git"
+
 ##Comandos para repositorios remotos
   - Git push
