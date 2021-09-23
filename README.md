@@ -14,9 +14,11 @@ Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
 
 ##Como hacer cambios en un repositorio de git
   - git clone "link" ( Primero clonamos es repositorio = donde dice link pegar el link del repositorio)
+  - git status (para ver si estan todos los archivos)
+  - git add . (. es un punto es igual que el * los dos suben todo " subimos el archivo)
   - git commit - m "version 2" (Segundo realizamos un commit = donde version 2 puede ir los cambios que se realizaron al anterior archivo)
-  - git status ( Tercero hacemos us status para verificar la carpeta que se modifico esta )
-  - git show (Cuarto vemos todos los cambios hechos)
+  - git push origin master
+  - git show (Cuarto vemos todos los cambios hechos ejemplo hola jonathan " esto estara en rojo " hola jonathan jacob " estara en verde y es la nueva version ")
 
 ##Comandos para repositorios remotos
   - Git push
