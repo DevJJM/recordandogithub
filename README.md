@@ -11,3 +11,12 @@ Primer entrar a la carpeta del proyecto ojo "Tenemos que tener una cuenta en git
   - git push origin master ( para subirpor fin todos los archivos)
 
 Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
+
+##Como hacer cambios en un repositorio de git
+  - git clone "link" ( Primero clonamos es repositorio = donde dice link pegar el link del repositorio)
+  - git commit - m "version 2" (Segundo realizamos un commit = donde version 2 puede ir los cambios que se realizaron al anterior archivo)
+  - git status ( Tercero hacemos us status para verificar la carpeta que se modifico esta )
+  - git show (Cuarto vemos todos los cambios hechos)
+
+##Comandos para repositorios remotos
+  - Git push
