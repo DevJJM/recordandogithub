@@ -7,7 +7,7 @@ Primer entrar a la carpeta del proyecto ojo "Tenemos que tener una cuenta en git
   - git status ( para ver los archivos estaran de color rojo)
   - git add * ( para agregar todos los achivos y enter)
   - git status ( y se pondra ahora de verde todo)
-  - git coomit -m "aqui frase" (en aqui frase poner ejemplo version 1 = sirve para ver los cambios)
+  - git commit -m "aqui frase" (en aqui frase poner ejemplo version 1 = sirve para ver los cambios)
   - git push origin master ( para subirpor fin todos los archivos)
 
 Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
@@ -36,3 +36,9 @@ Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
   - cd .. ( para retroceder una carpeta )
   - mkdir proyectos1 ( mkdir = crea la carpeta proyecto1 = es el nombre )
   - history ( nos muestra todos los comandos que emos hecho )
+
+##Ver todos los cambios por ID y volver a la version anterior de un codigo
+  - Git log ( para ver todos los commits )
+  - Git reset 6c8840989521d6441943feb2780f766ca73aa28e --hard ( el numero sale cuando hacemos el "GIT LOG" ejemplo  commit 6c8840989521d6441943feb2780f766ca73aa28e
+el --hard hace volver todo al anteior co --soft algunas partes )
+  - Git diff ( sirve para hacer diferencias )
