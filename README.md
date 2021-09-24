@@ -42,3 +42,6 @@ Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
   - Git reset 6c8840989521d6441943feb2780f766ca73aa28e --hard ( el numero sale cuando hacemos el "GIT LOG" ejemplo  commit 6c8840989521d6441943feb2780f766ca73aa28e
 el --hard hace volver todo al anteior co --soft algunas partes )
   - Git diff ( sirve para hacer diferencias )
+
+##Para ver nuestra configuracion es dcir nuestro usuario y correo que emos puesto al inicio
+  - Git config -l
