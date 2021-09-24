@@ -43,5 +43,15 @@ Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
 el --hard hace volver todo al anteior co --soft algunas partes )
   - Git diff ( sirve para hacer diferencias )
 
-##Para ver nuestra configuracion es dcir nuestro usuario y correo que emos puesto al inicio
-  - Git config -l
+##Para ver nuestra configuracion es dcir nuestro usuario y correo que emos puesto al inicio y creamos las llaves ssh
+  - Git config -l ( ojo debemos estar fuera de ( master ) con cd .. salimos de master )
+  - git config --global user.email "jonathanf4.32@hotmail.com" ( cambiamos el email )
+  - git config -l ( miramos si se cambio )
+  -  ssh-keygen -t rsa -b 4096 -C "75171766@continental.edu.pe" ( solo enter y enter l orecomendable es poner nombre )
+  -  $ eval $(ssh-agent -s) (no saldra estoAgent pid 938)
+  -  ssh-add ~/.ssh/id_rsa
+
+##Conexion por ssh
+  - 
+
+
