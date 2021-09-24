@@ -52,6 +52,17 @@ el --hard hace volver todo al anteior co --soft algunas partes )
   -  ssh-add ~/.ssh/id_rsa
 
 ##Conexion por ssh
-  - 
+  - Copiamos la llave que se genero ( es un archivo verde )
+  - Nos vamos a nuestro repositorio
+  - Seting
+  - SSH and GPS keys
+  - agregamos antes podemos una descripcion ( ejemplo : conexion en la laptop de jonathan )
+  - y save
+  - Ahora nos vamos a nuestro archivo o proyecto en github
+  - copiamos en que dice SSH
+  - Nos vamos a nuestra terminal ( tenemos que estar en master entramos a una carpeta con cd togaf/ )
+  - git remote -v ( para ver si estamos dentro )
+  - git remote set-url origin git@github.com:DevJJM/testing2021-2.git ( y entramos con este comando )
+  - lo comprobamsos haciendo cambios
 
 
