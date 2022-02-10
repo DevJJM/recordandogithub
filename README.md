@@ -65,4 +65,15 @@ el --hard hace volver todo al anteior co --soft algunas partes )
   - git remote set-url origin git@github.com:DevJJM/testing2021-2.git ( y entramos con este comando )
   - lo comprobamsos haciendo cambios
 
-
+##Trabajando con ramas
+  - git checkout -b feat/devjjm/aumentar-cantidad-de-usuario   (devjjm es nuestro usuario)(aumentar.... es nuestro commit o comentario-9
+  y ahora podremos hacer los cambios desde la nueva rama
+  - git status ( para saber en donde estamos en visual studio)
+  - [feat] cambio en codigo para ver usuarios ( cambio.... es como un mensaje)
+  - Dmos en el boton [commit all]
+  - luego en la flecha para arriba [ le damos push] para que se suba
+  - El lider ahora tendra que aceptar el cambio
+  - crearemos un pull request 
+  - cuando ya esta todo rellenado le damos en CREATE
+  - Aprovve
+  - Luego le damos en COMPLETE para que se una la rama
