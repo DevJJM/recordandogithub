@@ -77,3 +77,27 @@ el --hard hace volver todo al anteior co --soft algunas partes )
   - cuando ya esta todo rellenado le damos en CREATE
   - Aprovve
   - Luego le damos en COMPLETE para que se una la rama
+ ##Comandos para trabajo remoto con GIT
+  - git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
+  - git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los cambios al servidor remoto.
+  - git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
+  - git merge: También usamos el comando git merge con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
+  - git pull: Básicamente, git fetch y git merge al mismo tiempo.
+ ##Comandos para trabajo remoto con GIT
+  - git branch -nombre de la rama-: Con este comando se genera una nueva rama.
+  - git checkout -nombre de la rama-: Con este comando puedes saltar de una rama a otra.
+  - git checkout -b rama: Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git brach y git checkout al mismo tiempo.
+  - git reset id-commit: Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado.
+  - git checkout rama-o-id-commit: Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
+ ##Fusión de ramas con Git merge
+  - git init: crear un repositorio.
+  - git add: agregar un archivo a staging.
+  - git commit -m “mensaje”: guardar el archivo en git con un mensaje
+  - git branch: crear una nueva rama.
+  - git checkout: moverse entre ramas.
+  - git push: mandar cambios a un servidor remoto.
+  - git fetch: traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local.
+  - git merge: tiene dos usos. Uno es la fusión de ramas, funcionando como un commit en la rama actual, trayendo la rama indicada. Su otro uso es guardar los cambios de un servidor remoto en nuestro directorio.
+  - git pull: fetch y merge al mismo tiempo.
+  
+ 
