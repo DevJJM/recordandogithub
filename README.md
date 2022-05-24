@@ -47,7 +47,7 @@ el --hard hace volver todo al anteior co --soft algunas partes )
   - Git config -l ( ojo debemos estar fuera de ( master ) con cd .. salimos de master )
   - git config --global user.email "jonathanf4.32@hotmail.com" ( cambiamos el email )
   - git config -l ( miramos si se cambio )
-  -  ssh-keygen -t rsa -b 4096 -C "75171766@continental.edu.pe" ( solo enter y enter l orecomendable es poner nombre )
+  -  ssh-keygen -t rsa -b 4096 -C "you2@example.com" ( solo enter y enter l orecomendable es poner nombre )
   -  $ eval $(ssh-agent -s) (no saldra estoAgent pid 938)
   -  ssh-add ~/.ssh/id_rsa
 
