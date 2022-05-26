@@ -12,6 +12,7 @@ Primer entrar a la carpeta del proyecto ojo "Tenemos que tener una cuenta en git
 
 Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
 <p align="center"><img src="https://i.ibb.co/6rTxfm7/img040-2.jpg" width="500" height="700"></p>
+ojo: falta el comit -m "modificcamos" y luego su GIT PUSH .. sino no va funcionar.
 ##Como hacer cambios en un repositorio de git
   - git clone "link" ( Primero clonamos es repositorio = donde dice link pegar el link del repositorio)
   - git status (para ver si estan todos los archivos)
