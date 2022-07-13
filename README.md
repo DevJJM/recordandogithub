@@ -9,7 +9,7 @@ Primer entrar a la carpeta del proyecto ojo "Tenemos que tener una cuenta en git
   - git status ( y se pondra ahora de verde todo)
   - git commit -m "aqui frase" (en aqui frase poner ejemplo version 1 = sirve para ver los cambios)
   - git push origin master ( para subirpor fin todos los archivos)
-
+  - aveces no funiona porque debe a ver almens una en blanco de notepad
 Y ve a tus REPOSITORIO en GITHUB y observaras que ya se subio todo los archivos
 - <p align="center"><img src="https://i.ibb.co/6rTxfm7/img040-2.jpg" width="500" height="700"></p>
 ojo: falta el comit -m "modificcamos" y luego su GIT PUSH .. sino no va funcionar.
