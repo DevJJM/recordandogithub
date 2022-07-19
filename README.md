@@ -43,6 +43,7 @@ ojo: falta el comit -m "modificcamos" y luego su GIT PUSH .. sino no va funciona
   - Git reset 6c8840989521d6441943feb2780f766ca73aa28e --hard ( el numero sale cuando hacemos el "GIT LOG" ejemplo  commit 6c8840989521d6441943feb2780f766ca73aa28e
 el --hard hace volver todo al anteior co --soft algunas partes )
   - Git diff ( sirve para hacer diferencias )
+  - git show readme.md ( readme.md es el archivo donde se realizo ls cambios.. Con q salimos de ahi)
 
 ##Para ver nuestra configuracion es dcir nuestro usuario y correo que emos puesto al inicio y creamos las llaves ssh
   - Git config -l ( ojo debemos estar fuera de ( master ) con cd .. salimos de master )
