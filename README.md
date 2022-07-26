@@ -20,7 +20,7 @@ ojo: falta el comit -m "modificcamos" y luego su GIT PUSH .. sino no va funciona
   - git commit - m "version 2" (Segundo realizamos un commit = donde version 2 puede ir los cambios que se realizaron al anterior archivo)
   - git push origin master
   - git show (Cuarto vemos todos los cambios hechos ejemplo hola jonathan " esto estara en rojo " hola jonathan jacob " estara en verde y es la nueva version ")
-  - ![Inicio](src/git.pdf)
+  - ![Git comandos completos](/git.pdf)
 ##Ver el archivo oculto de git en windows
   - Ir a la carpeta win + e
   - Ve a vista
